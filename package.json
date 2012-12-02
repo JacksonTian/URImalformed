@@ -1,0 +1,31 @@
+{
+  "name": "malformed",
+  "version": "0.0.1",
+  "description": "URImalformed ============",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JacksonTian/URImalformed.git"
+  },
+  "dependencies": {
+    "urllib": "*"
+  },
+  "devDependencies": {
+    "rewire": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "URI",
+    "malformed"
+  ],
+  "author": "Jackson Tian",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
